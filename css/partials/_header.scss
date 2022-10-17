@@ -1,13 +1,16 @@
-.header > .container {
+.header { 
+margin: 0 auto;
+ > .container {
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
-
   .logo__container {
-    margin: 18px auto;
+   margin-top: 18px ;
+   margin-bottom: 18px;
+    
   }
 }
-
+}
 .header-top {
   display: flex;
   gap: 20px;
