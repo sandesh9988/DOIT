@@ -93,17 +93,52 @@ the_post();
     </section>
     <section class="card">
         <div class="container">
-            <div class="card__content">
+            <div class="card__article">
                 <figure class="card__media">
-                    <img src="<?php echo get_template_directory_uri() ?> /uploads/profile3.jpg" alt="profile of a person" />
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/block1.jpg" alt="image of a article" />
                 </figure>
-                <h2 class="card__heading">IT Infrastructure</h2>
-                <p>Information and Communication Technology (ICT) together with Internet is making it possible to share vast amount of knowledge and information and …</p>
-                <div class="card__link">
-                    <a href="#">Read More</a>
-                    <svg class="icon icon-arrow">
-                        <use xlink:href="#icon-arrow"></use>
-                    </svg>
+                <div class="card__content">
+                    <h2 class="card__heading">IT Infrastructure</h2>
+                    <p>Information and Communication Technology (ICT) together with Internet is making it possible to share vast amount of knowledge and information and …</p>
+                    <div class="card__link">
+                        <a href="#">Read More</a>
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+            <div class="card__article">
+                <figure class="card__media">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/block2.jpg" alt="image of a article" />
+                </figure>
+                <div class="card__content">
+                    <h2 class="card__heading">Cyber Security Awareness</h2>
+                    <p>Information and Communication Technology (ICT) together with Internet is making it possible to share vast amount of knowledge and information and …</p>
+                    <div class="card__link">
+                        <a href="#">Read More</a>
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card__article">
+                <figure class="card__media">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/block3.jpg" alt="image of a article" />
+                </figure>
+                <div class="card__content">
+                    <h2 class="card__heading">E Governance</h2>
+                    <p>Information and Communication Technology (ICT) together with Internet is making it possible to share vast amount of knowledge and information and …</p>
+                    <div class="card__link">
+                        <a href="#">Read More</a>
+                        <svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg>
+
+                    </div>
                 </div>
 
             </div>
