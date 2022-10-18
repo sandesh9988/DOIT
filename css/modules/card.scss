@@ -1,0 +1,9 @@
+.card {
+    background-color: $secondary;
+}
+
+.card__link {
+    svg {
+        transform: rotate(90deg);
+    }
+}

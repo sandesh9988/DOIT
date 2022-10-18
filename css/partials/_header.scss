@@ -32,6 +32,7 @@ margin: 0 auto;
 
 .header__main-nav {
   display: flex;
+  position: relative ;
 
   gap: 25px;
   li {
@@ -170,6 +171,9 @@ margin: 0 auto;
 .header__sub-nav {
   width: 100%;
   height: auto;
+  position: absolute;
+  z-index: 3;
+ 
 }
 
 .header__main-nav {
