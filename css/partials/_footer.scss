@@ -120,8 +120,8 @@
   line-height: 20px;
   color: $white;
   opacity: 0.72;
-  padding-bottom: 80px;
   @media #{$desktop} {
     bottom: 0;
+    padding: 20px 0;
   }
 }

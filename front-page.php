@@ -146,7 +146,7 @@ the_post();
     </section>
     <section class="icon-grid">
         <div class="container">
-                <h2 class="icon-grid__title">Our Programs</h2>
+            <h2 class="icon-grid__title">Our Programs</h2>
             <div class="icon-grid__rows">
                 <div class="icon-grid__content">
                     <svg class="icon icon-cloud">
@@ -218,6 +218,215 @@ the_post();
                     <h3 class="icon-grid__subtitle">Integrated IT Service Center</h3>
                     <p>The advancement in technology has made people more inclined towards tablets…</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="tab-content">
+        <div class="container">
+            <div class="tab-content__left">
+                <div class="tab-content__lists">
+                    <button class="tab-content__btn content__btn" onclick="openCity(event, 'News')">News</button>
+                    <button class="tab-content__btn content__btn" onclick="openCity(event, 'Press')">Press Release</button>
+                    <button class="tab-content__btn content__btn" onclick="openCity(event, 'Events')">Upcoming Events</button>
+                    <button class="tab-content__btn content__btn" onclick="openCity(event, 'Notices')">Notices</button>
+                </div>
+                <div id="News" class="tab-content__tabs content__tabs">
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Information of Department of IT as per RTI Act Section 5(From Magh1 to End of Chaitra 2077)</p>
+                        <div class="tab-content__link">
+                            <a href="#">Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="Press" class="tab-content__tabs content__tabs">
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">1 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">1Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Information of Department of IT as per RTI Act Section 5(From Magh1 to End of Chaitra 2077)</p>
+                        <div class="tab-content__link">
+                            <a href="#">1 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">1 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="Events" class="tab-content__tabs content__tabs">
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">2 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">2 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Information of Department of IT as per RTI Act Section 5(From Magh1 to End of Chaitra 2077)</p>
+                        <div class="tab-content__link">
+                            <a href="#">2 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">2 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="Notices" class="tab-content__tabs content__tabs">
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">3 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">3 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Information of Department of IT as per RTI Act Section 5(From Magh1 to End of Chaitra 2077)</p>
+                        <div class="tab-content__link">
+                            <a href="#">3 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+
+                        </div>
+                    </div>
+                    <div class="tab-content__contents">
+                        <p>Press Release(Local Level Mobile Application)-(2075-09-23)</p>
+                        <div class="tab-content__link">
+                            <a href="#">3 Read More<svg class="icon icon-arrow">
+                                    <use xlink:href="#icon-arrow"></use>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content__right">
+                <fieldset>
+                    <legend>Notices</legend>
+                    <div class="tab-content__news">
+                        <h3 class="tab-content__title">30 May 2021</h3>
+                        <p>National ICT Day- 2078</p>
+                    </div>
+                    <div class="tab-content__news">
+                        <h3 class="tab-content__title">30 May 2021</h3>
+                        <p>Information of Department of IT as per RTI Act Section 5(From Kartik 1 to End of Poush2077)</p>
+                    </div>
+                    <div class="tab-content__news">
+                        <h3 class="tab-content__title">30 May 2021</h3>
+                        <p>Information of Department of IT as per RTI Act Section 5(From Kartik 1 to End of Poush2077)</p>
+                    </div>
+                    <div class="tab-content__news">
+                        <h3 class="tab-content__title">30 May 2021</h3>
+                        <p>National ICT Day- 2078</p>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery__heading">
+                <h2 class="gallery__title">Photo Gallery</h2>
+                    <a href="#">View All<svg class="icon icon-arrow">
+                            <use xlink:href="#icon-arrow"></use>
+                        </svg></a>
+            </div>
+            <div class="gallery__lists">
+                <figure class="gallery__media">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/gallery1.jpg" alt="image of a gallery" />
+                </figure>
+                <figure class="gallery__media">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/gallery2.jpg" alt="image of a gallery" />
+                </figure>
+                <figure class="gallery__media">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/gallery3.jpg" alt="image of a gallery" />
+                </figure>
+                <figure class="gallery__media gallery__media-hide">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/gallery4.jpg" alt="image of a gallery" />
+                </figure>
+                <figure class="gallery__media gallery__media-last">
+                    <img src="<?php echo get_template_directory_uri() ?> /uploads/gallery5.jpg" alt="image of a gallery" />
+                </figure>
             </div>
         </div>
     </section>
