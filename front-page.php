@@ -144,6 +144,83 @@ the_post();
             </div>
         </div>
     </section>
+    <section class="icon-grid">
+        <div class="container">
+                <h2 class="icon-grid__title">Our Programs</h2>
+            <div class="icon-grid__rows">
+                <div class="icon-grid__content">
+                    <svg class="icon icon-cloud">
+                        <use xlink:href="#icon-cloud"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">G Cloud</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-attendance">
+                        <use xlink:href="#icon-attendance"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">E Attendance</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-profile">
+                        <use xlink:href="#icon-profile"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">IT Profiling</h3>
+                    <p>In current scenario, almost all the government organization are designing and developing …</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-village">
+                        <use xlink:href="#icon-village"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">E-Village</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-training">
+                        <use xlink:href="#icon-training"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">Training</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-school">
+                        <use xlink:href="#icon-school"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">E-School</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-Eattendance">
+                        <use xlink:href="#icon-Eattendance"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">E-Attendance</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-Evillage">
+                        <use xlink:href="#icon-Evillage"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">E-Village</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-digital">
+                        <use xlink:href="#icon-digital"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">Digital Content</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+                <div class="icon-grid__content">
+                    <svg class="icon icon-service">
+                        <use xlink:href="#icon-service"></use>
+                    </svg>
+                    <h3 class="icon-grid__subtitle">Integrated IT Service Center</h3>
+                    <p>The advancement in technology has made people more inclined towards tablets…</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <?php include('modules/flex-content/flex-content.php') ?>
 </main>
 <?php get_footer(); ?>
