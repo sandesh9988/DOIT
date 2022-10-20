@@ -204,7 +204,7 @@ the_post();
                     <h3 class="icon-grid__subtitle">E-Village</h3>
                     <p>The advancement in technology has made people more inclined towards tablets…</p>
                 </div>
-                <div class="icon-grid__content">
+                <div class="icon-grid__content icon-grid__content--padding">
                     <svg class="icon icon-digital">
                         <use xlink:href="#icon-digital"></use>
                     </svg>

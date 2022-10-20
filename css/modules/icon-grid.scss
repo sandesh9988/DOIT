@@ -11,12 +11,20 @@ margin-bottom: 16px;
 }
 
 .icon-grid__rows {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  max-width: $container;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  align-items: center;
   gap: 30px;
+ 
+  
 }
 
 .icon-grid__content {
+  max-width: 300px;
+  width: 100%;
   padding: 20px 30px;
   background: $white;
   border: 1px solid rgba(27, 35, 52, 0.1);
@@ -27,6 +35,9 @@ margin-bottom: 16px;
   @include fsz(15px);
   line-height: 1.29;
   color: $primary-text;
+  @media #{$phone} {
+    max-width: 100%;
+   }
 
   svg {
     width: 40px;
@@ -41,4 +52,8 @@ margin-bottom: 16px;
     line-height: 1.41;
     color: $primary-text;
   }
+}
+
+.icon-grid__content--padding {
+  padding-bottom: 44px;
 }

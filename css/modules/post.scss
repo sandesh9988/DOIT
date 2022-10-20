@@ -3,7 +3,11 @@
 
   > .container {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
+    @media only screen and (max-width: 1100px) {
+      flex-direction: column-reverse;
+      align-items: center;
+    }
   }
 }
 
@@ -39,6 +43,10 @@
 .post__profile {
   display: flex;
   gap: 20px;
+  @media only screen and (max-width: 1100px) {
+    flex-direction: column;
+    
+  }
 }
 
 .post__image {
@@ -46,11 +54,11 @@
   width: 100%;
   aspect-ratio: 1/1;
   overflow: hidden;
-  box-shadow: 4px 4px 0px $primary-alt;
+  // box-shadow: 4px 4px 0px $primary-alt;
 }
-.post__image-alt {
-  box-shadow: 4px 4px 0px rgba(100, 101, 102, 0.281);
-}
+// .post__image-alt {
+//   box-shadow: 4px 4px 0px rgba(100, 101, 102, 0.281);
+// }
 
 .post__profile-details {
   font-family: $primary-family;
