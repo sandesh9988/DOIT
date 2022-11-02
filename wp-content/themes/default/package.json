@@ -23,5 +23,7 @@
     "gulp-sass-glob": "^1.0.9",
     "gulp-uglify": "^3.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "save-dev": "0.0.1-security"
+  }
 }
